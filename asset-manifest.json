@@ -1,13 +1,15 @@
 {
   "files": {
-    "main.css": "/Epic25/static/css/main.1cc8ca4e.css",
-    "main.js": "/Epic25/static/js/main.86d32eab.js",
+    "main.css": "/Epic25/static/css/main.e7295431.css",
+    "main.js": "/Epic25/static/js/main.cbcb218a.js",
+    "static/media/Kavin.jpg": "/Epic25/static/media/Kavin.2150f67bc3742c163a07.jpg",
+    "static/media/Priyanka K.jpg": "/Epic25/static/media/Priyanka K.66dca7c9ff722126d207.jpg",
     "index.html": "/Epic25/index.html",
-    "main.1cc8ca4e.css.map": "/Epic25/static/css/main.1cc8ca4e.css.map",
-    "main.86d32eab.js.map": "/Epic25/static/js/main.86d32eab.js.map"
+    "main.e7295431.css.map": "/Epic25/static/css/main.e7295431.css.map",
+    "main.cbcb218a.js.map": "/Epic25/static/js/main.cbcb218a.js.map"
   },
   "entrypoints": [
-    "static/css/main.1cc8ca4e.css",
-    "static/js/main.86d32eab.js"
+    "static/css/main.e7295431.css",
+    "static/js/main.cbcb218a.js"
   ]
 }
