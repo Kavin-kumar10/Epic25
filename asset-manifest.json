@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/Epic25/static/css/main.1cc8ca4e.css",
+    "main.js": "/Epic25/static/js/main.9371ea0d.js",
+    "index.html": "/Epic25/index.html",
+    "main.1cc8ca4e.css.map": "/Epic25/static/css/main.1cc8ca4e.css.map",
+    "main.9371ea0d.js.map": "/Epic25/static/js/main.9371ea0d.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1cc8ca4e.css",
+    "static/js/main.9371ea0d.js"
+  ]
+}
