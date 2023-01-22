@@ -1,6 +1,7 @@
 import './App.scss';
 import { HashRouter as Router,Routes,Route } from 'react-router-dom';
 import Main from './Components/Main';
+import About from './Components/About';
 import Horror from './Components/Filter/Horror';
 import Mystery from './Components/Filter/Mystery';
 import Action from './Components/Filter/Action';
@@ -18,6 +19,7 @@ function App() {
       <div className="App">
           <Routes>
             <Route path='/' element={<Main/>}/>
+            <Route path='/About' element={<About/>}/>
             <Route path='/Horror' element = {<Horror/>}/>
             <Route path='/Romantic' element = {<Romantic/>}/>
             <Route path='/Mystery' element = {<Mystery/>}/>

@@ -13,7 +13,7 @@ import { Link } from "react-router-dom";
 
 const Catagory = () =>{
     return(
-        <div className="Catagory">
+        <div className="Catagory" id="catgry">
             <div className="Header">
                 <h1>Cat<span>ago</span>ries</h1>
             </div>
