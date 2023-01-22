@@ -1,0 +1,56 @@
+.Catagory{
+    height: 100vh;
+    width: 100vw;
+    background-color: rgba(0, 0, 0, 0.9);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    .Header{
+        color: var(--primary-color);
+        font-size: 40px;
+        margin: 7rem;
+        align-self:flex-start;
+        span{
+            color: var(--tertiary-color);
+        }
+    }
+
+    .Catagories{
+        display: flex;
+        flex-wrap: wrap;
+        margin: 20px;
+        gap: 2rem; 
+        div{
+            h1{
+                color: white;
+                transition: all 1s ease;
+            }
+            &:hover{
+                border: 5px solid white;
+            }
+            &:hover h1{
+                font-size: 100px;
+            }
+            &:active{
+                opacity: 0.5;
+            }
+        }   
+    }
+    .Catagories > *{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex: 1;
+        cursor: pointer;
+        height: 50vh;
+        width: 250px;
+        border-radius: 1rem;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size:auto 100%;
+        transition: all .8s cubic-bezier(.25,.4,.45,1.4);
+        &:hover{
+            flex: 5;
+        }
+    }
+}

@@ -1,0 +1,49 @@
+.Anime{
+    background-color: var(--secondary-color);
+    min-height: 100vh;
+    width: 100vw;
+    display: flex;
+    .SideNav{
+        .catgry{
+            #Ani{
+                background: var(--primary-color);
+                color: var(--secondary-color);
+            }
+        }
+    }
+    .Content{
+        display: flex;
+        flex-direction: column;
+        margin: 50px;
+        h1{
+            color: var(--primary-color);
+            margin: 10px;
+        }
+        .Cards{
+            display: flex;
+            flex-wrap: wrap;
+        }
+        .Cards>*{
+            margin: 30px;
+        }
+    }
+}
+
+@media screen and (max-width:1300px){
+    .Anime{
+        .Content{
+            h1{
+                margin: 5px;
+                font-size: 50px;
+            }
+            .Cards>*{
+                margin: 12px;
+            }
+        }
+    }
+}
+@media screen and (max-width:700px){
+    .Anime{
+        flex-direction: column;
+    }
+}

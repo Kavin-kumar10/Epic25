@@ -1,0 +1,30 @@
+// font-family: 'Cutive Mono', monospace;
+// font-family: 'Great Vibes', cursive;
+// font-family: 'Henny Penny', cursive;
+// font-family: 'Montez', cursive;
+// font-family: 'Poiret One', cursive;
+// font-family: 'Sacramento', cursive;
+// font-family: 'Viaoda Libre', cursive;
+
+
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+:root{
+  --primary-color:#F5F5FA;
+  --secondary-color:#101014;
+  --tertiary-color: rgb(167, 5, 5);
+}
+
+
+.App{
+  background:url('http://cdn.shopify.com/s/files/1/0087/2506/9860/collections/1_jfR0trcAPT3udktrFkOebA_1200x1200.jpg?v=1566963161');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  font-family: 'Poiret One', cursive;
+  overflow: hidden;
+}

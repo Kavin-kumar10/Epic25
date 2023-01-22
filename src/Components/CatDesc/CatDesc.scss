@@ -1,0 +1,34 @@
+.CatDesc{
+    align-self: center;
+    display: flex;
+    flex-direction: column;
+    min-width: 100%;
+    .box{
+        height: auto;
+        border: 2px solid white;
+        margin: 10px;
+        padding: 12px;
+        border-radius: 12px;
+        background: var(--primary-color);
+        h1{
+            font-size: 120px;
+            background:url('http://cdn.shopify.com/s/files/1/0087/2506/9860/collections/1_jfR0trcAPT3udktrFkOebA_1200x1200.jpg?v=1566963161');
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-attachment: fixed;
+            background-clip: text;
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            span{
+                font-size: 40px;
+            }
+        }
+    }
+    // input{
+    //     padding: 12px;
+    //     width: 500px;
+    //     margin: 8px;
+    //     height: 50px;
+    //     border-radius: 12px;
+    // }
+}

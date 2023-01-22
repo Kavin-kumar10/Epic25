@@ -1,0 +1,51 @@
+.Mystery{
+    background-color: var(--secondary-color);
+    min-height: 100vh;
+    width: 100vw;
+    display: flex;
+    .SideNav{
+        .catgry{
+            #Mys{
+                background: var(--primary-color);
+                color: var(--secondary-color);
+            }
+        }
+    }
+    .Content{
+        display: flex;
+        flex-direction: column;
+        margin: 50px;
+        h1{
+            color: var(--primary-color);
+            margin: 10px;
+        }
+        .Cards{
+            display: flex;
+            flex-wrap: wrap;
+        }
+        .Cards>*{
+            margin: 30px;
+        }
+    }
+}
+
+@media screen and (max-width:1300px){
+    .Mystery{
+        .Content{
+            h1{
+                margin: 5px;
+                font-size: 30px;
+            }
+            .Cards>*{
+                margin: 12px;
+            }
+        }
+    }
+}
+@media screen and (max-width:700px){
+    .Mystery{
+        flex-direction: column;
+        .Content{
+        }
+    }
+}

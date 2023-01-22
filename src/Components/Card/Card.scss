@@ -1,0 +1,48 @@
+.Card{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    cursor: pointer;
+    border-radius: 25px;
+    width: min-content;
+    margin: 10px;
+    .Image{
+        img{
+            height: 300px;
+            margin: 12px 0px;
+            border-radius: 25px;
+            border: 2px solid var(--primary-color);
+            transition: all 0.1s linear;
+            &:hover{
+                opacity: 0.5;
+            }
+        }
+    }
+    .Description{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        p{
+            color: var(--primary-color);
+            font-size: 20px;
+            margin-left: 10px;
+            span{
+                font-size: 10px;
+                opacity: 0.9;
+            }
+        }
+    }
+    transition: all 0.2s linear;
+
+}
+
+@media screen and (max-width:1300px){
+    .Card{
+        .Image{
+            img{
+                height: 200px;
+            }
+        }
+    }
+}
