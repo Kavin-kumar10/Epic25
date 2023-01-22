@@ -3,13 +3,6 @@ import './Catagory.scss'
 import { Link } from "react-router-dom";
 
 
-// const catagories = [{Cat_Name:"Horror",img:"https://www.treebo.com/blog/wp-content/uploads/2018/04/Scary-Houses-in-Bangalore-.jpg",link:"/Horror"},
-// {Cat_Name:"Mystery",img:"https://m.media-amazon.com/images/M/MV5BMmE1ZDA2YTktOTNiZS00ZmFhLTg0YWMtMTk4Y2Q4MGJhMGU0XkEyXkFqcGdeQXVyMDE2MTk5Nw@@._V1_.jpg",link:"Mystery"},
-// {Cat_Name:"Romantic",img:"https://wallpaper.dog/large/4058.jpg",link:"/Romantic"},
-// {Cat_Name:"Action",img:"https://i.scdn.co/image/ab67616d0000b273de8e1a2c09c6e25a2c03bc97",link:"/Action"},
-// {Cat_Name:"Anime",img:"https://i.pinimg.com/736x/7e/ce/c4/7ecec434137d1fcbe023db38e06c1260.jpg",link:"/Anime"},
-
-// ]
 
 const Catagory = () =>{
     return(
