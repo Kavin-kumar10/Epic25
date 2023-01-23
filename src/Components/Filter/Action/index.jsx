@@ -20,9 +20,9 @@ const Action = () =>{
                 <h1>Latest Epic Action Movies</h1>
                 <div className="Cards">
                     {
-                        ActionMovies.map((ActionMovie)=>{
+                        ActionMovies.map((ActionMovie,index)=>{
                             return(
-                                <Card name={ActionMovie.name} year = {ActionMovie.year} img = {ActionMovie.img} cat={ActionMovie.cat}/>
+                                <Card name={ActionMovie.name} key={index} year = {ActionMovie.year} img = {ActionMovie.img} cat={ActionMovie.cat}/>
                             )
                         })
                     }

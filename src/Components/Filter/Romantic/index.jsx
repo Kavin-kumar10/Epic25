@@ -20,9 +20,9 @@ const Romantic = () =>{
                 <h1>Latest Epic Romantic Movies</h1>
                 <div className="Cards">
                     {
-                        RomanticMovies.map((RomanticMovie)=>{
+                        RomanticMovies.map((RomanticMovie,index)=>{
                             return(
-                                <Card name={RomanticMovie.name} year = {RomanticMovie.year} img = {RomanticMovie.img} cat={RomanticMovie.cat}/>
+                                <Card name={RomanticMovie.name} key={index} year = {RomanticMovie.year} img = {RomanticMovie.img} cat={RomanticMovie.cat}/>
                             )
                         })
                     }

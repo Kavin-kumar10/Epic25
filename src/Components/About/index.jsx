@@ -17,9 +17,15 @@ const About = () =>{
             <div className="Mem">
                 <img src={Lead1} alt="Kavin" />
                 <div className="details">
-                    <h1>Kavin Kumar M - (Team Lead)</h1>
-                    <h2>MERN Stack Developer</h2>
-                    <p>UI & Ux Designer and Developer.<br></br> Student at Bannari Amman Institute of Technology, Sathyamangalam.</p>
+                    <div className="top">
+                        <h1>Kavin Kumar M - (Team Lead)</h1>
+                        <h2>MERN Stack Developer</h2>
+                        <p>UI & Ux Designer and Developer.<br></br> Student at Bannari Amman Institute of Technology, Sathyamangalam.</p>
+                    </div>
+                    <div className="bottom">
+                        <p>kavinkumar.ee20@bitsathy.ac.in</p>
+                        <p>8344442124</p>
+                    </div>
                 </div>
                 <Link to='/'>
                     <div className="Home"><AiOutlineHome id="icon"/></div>
@@ -28,9 +34,15 @@ const About = () =>{
             <div className="Mem" id="teamMem">
                 <img src={Lead} alt="Priyanka" /> 
                 <div className="details">
-                    <h1>Priyanka P - (Team Member)</h1>
-                    <h2>UI & UX Designer</h2>
-                    <p>UI & UX Designer(Figma, Canvas). <br></br>Student at Bannari Amman Institute Of Technology, Sathyamanglam.</p>
+                    <div className="top">
+                        <h1>Priyanka P - (Team Member)</h1>
+                        <h2>UI & UX Designer</h2>
+                        <p>UI & UX Designer(Figma, Canvas). <br></br>Student at Bannari Amman Institute Of Technology, Sathyamanglam.</p>
+                    </div>
+                    <div className="bottom">
+                        <p>priyanka.ee20@bitsathy.ac.in</p>
+                        <p>9384902122</p>
+                    </div>
                 </div>
             </div>
         </div>

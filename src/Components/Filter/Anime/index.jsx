@@ -20,9 +20,9 @@ const Anime = () =>{
                 <h1>Latest Epic Anime Movies</h1>
                 <div className="Cards">
                     {
-                        AnimeMovies.map((AnimeMovie)=>{
+                        AnimeMovies.map((AnimeMovie,index)=>{
                             return(
-                                <Card cat={AnimeMovie.cat} name={AnimeMovie.name} year = {AnimeMovie.year} img = {AnimeMovie.img} link={AnimeMovie.link}/>
+                                <Card cat={AnimeMovie.cat} key={index} name={AnimeMovie.name} year = {AnimeMovie.year} img = {AnimeMovie.img} link={AnimeMovie.link}/>
                             )
                         })
                     }

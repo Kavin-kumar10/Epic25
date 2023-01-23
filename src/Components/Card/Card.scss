@@ -37,11 +37,21 @@
 
 }
 
-@media screen and (max-width:1300px){
+@media screen and (max-width:1700px){
     .Card{
         .Image{
             img{
-                height: 200px;
+                height: 150px;
+            }
+        }
+    }
+}
+@media screen and (max-width:400px){
+    .Card{
+        .Image{
+            img{
+                height: 300px;
+                margin:10px 0px;
             }
         }
     }

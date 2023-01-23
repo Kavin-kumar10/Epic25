@@ -1,7 +1,7 @@
 import React from "react";
 import './MoviePage.scss'
 import SideNav from "../SideNav";
-import {AiFillStar,AiOutlineStar} from 'react-icons/ai'
+import {AiFillStar,AiOutlineStar,AiFillPlayCircle} from 'react-icons/ai'
 import Card from "../Card";
 
 const MoviePage = ({movie,recomend}) =>{
@@ -11,15 +11,26 @@ const MoviePage = ({movie,recomend}) =>{
             <SideNav/>
             <div className="Content">
                 <div className="Main">
-                    <img src={movie.img} alt="img" />
+                    <a href="#">
+                        <img src={movie.img} alt="img" />
+                        <AiFillPlayCircle id="play"/>
+                    </a>
                     <div className="Description">
-                        <div id="star"><AiFillStar size={20}/><AiFillStar size={20}/><AiFillStar size={20}/><AiFillStar size={20}/><AiOutlineStar size={20}/></div>
-                        <h2>{movie.name}</h2>
-                        <h5>Duration: {movie.duration}</h5>
-                        <p>{movie.description}</p>
-                        <br />
-                        <h1>Reviews:</h1>
-                        <p>This show was simply beautiful. I’ve rarely fallen in love with a world so quickly, an exception being IT 2017 and Little Women 2019, but this show? God, it was more wonderful with every minute. </p>
+                        <div id="left">
+                            <div id="star"><AiFillStar size={20}/><AiFillStar size={20}/><AiFillStar size={20}/><AiFillStar size={20}/><AiOutlineStar size={20}/></div>
+                            <p>Home . {movie.cat}</p>
+                            <h2>Movie Name:&nbsp;{movie.name}</h2>
+                            <p>Release Year:&nbsp;<span>{movie.year}</span></p>
+                            <p>Genre:&nbsp;<span>{movie.cat}</span></p>
+                            <p>Rating:&nbsp;<span>{(Math.random() * (4 - 3 + 1) + 3).toFixed(1)}</span></p>
+                            <p>Box Office:&nbsp;<span>{(Math.random() * (100 - 20 + 1) + 20).toFixed(1)} Crore</span></p>
+                        </div>
+                        <div id="right">
+                            <h1>Description:</h1>
+                            <p>{movie.description}</p>
+                            <h1>Review:</h1>
+                            <p>{movie.Review}</p>
+                        </div>
                     </div>
                 </div>
                 <div className="Recommend">

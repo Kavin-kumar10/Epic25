@@ -20,9 +20,9 @@ const Mystery = () =>{
                 <h1>Latest Epic Mystery Movies</h1>
                 <div className="Cards">
                     {
-                        MysteryMovies.map((MysteryMovie)=>{
+                        MysteryMovies.map((MysteryMovie,index)=>{
                             return(
-                                <Card name={MysteryMovie.name} year = {MysteryMovie.year} img = {MysteryMovie.img} cat={MysteryMovie.cat}/>
+                                <Card name={MysteryMovie.name} key={index} year = {MysteryMovie.year} img = {MysteryMovie.img} cat={MysteryMovie.cat}/>
                             )
                         })
                     }

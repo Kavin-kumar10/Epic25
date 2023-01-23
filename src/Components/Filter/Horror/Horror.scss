@@ -32,6 +32,13 @@
 @media screen and (max-width:1300px){
     .Horror{
         .Content{
+            .CatDesk{
+                .box{
+                    h1{
+                        font-size: 200px;
+                    }
+                }
+            }
             h1{
                 margin: 5px;
                 font-size: 30px;
@@ -42,9 +49,8 @@
         }
     }
 }
-@media screen and (max-width:700px){
+@media screen and (max-width:800px){
     .Horror{
         flex-direction: column;
-
     }
 }

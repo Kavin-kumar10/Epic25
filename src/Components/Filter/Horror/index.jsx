@@ -20,9 +20,9 @@ const Horror = () =>{
                 <h1>Latest Epic Horror Movies</h1>
                 <div className="Cards">
                     {
-                        horrorMovies.map((horrorMovie)=>{
+                        horrorMovies.map((horrorMovie,index)=>{
                             return(
-                                <Card name={horrorMovie.name} year = {horrorMovie.year} img = {horrorMovie.img} cat={horrorMovie.cat}/>
+                                <Card name={horrorMovie.name} key={index} year = {horrorMovie.year} img = {horrorMovie.img} cat={horrorMovie.cat}/>
                             )
                         })
                     }
@@ -34,6 +34,3 @@ const Horror = () =>{
 
 export default Horror
 
-
-//horror picture
-// https://rukminim1.flixcart.com/image/416/416/l111lzk0/poster/1/d/j/medium-rings-horror-movie-2016-4k-on-fine-art-paper-hd-quality-original-imagczwux574g9hp.jpeg?q=70

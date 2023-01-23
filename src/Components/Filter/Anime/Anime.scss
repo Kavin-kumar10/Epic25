@@ -34,7 +34,7 @@
         .Content{
             h1{
                 margin: 5px;
-                font-size: 50px;
+                font-size: 30px;
             }
             .Cards>*{
                 margin: 12px;
@@ -42,7 +42,7 @@
         }
     }
 }
-@media screen and (max-width:700px){
+@media screen and (max-width:800px){
     .Anime{
         flex-direction: column;
     }

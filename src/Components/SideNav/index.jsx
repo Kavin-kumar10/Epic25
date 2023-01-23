@@ -7,7 +7,9 @@ import {SiAboutdotme} from 'react-icons/si'
 const SideNav = () =>{
     return(
         <div className="SideNav">
-            <h1>Epic_<span>25</span></h1>
+            <Link to='/' style={{textDecoration:"none"}}>
+                <h1>Epic_<span>25</span></h1>
+            </Link>
             <div className="line"></div>
             <div className="catgry">
                 <div className="Home">

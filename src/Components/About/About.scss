@@ -36,8 +36,7 @@
                 margin: 12px;
                 padding: 15px;
                 &:hover{
-                    background-color: var(--secondary-color);
-                    color: var(--primary-color);
+                    box-shadow: 0px 0px 30px grey;
                 }
             }
         }
@@ -50,17 +49,30 @@
         .details{
             display: flex;
             flex-direction: column;
-            h1{
-                font-size: 50px;
+            justify-content: space-between;
+            .top{
+                display: flex;
+                flex-direction: column;
+                h1{
+                    font-size: 50px;
+                }
+                h2{
+                    font-size: 25px;
+                    opacity: 0.5;
+                }
             }
-            h2{
-                font-size: 25px;
-                opacity: 0.5;
+            .top>*{
+                margin: 5px 50px;
+            }
+            .bottom{
+                display: flex;
+                justify-content: space-between;
+                p{
+                    margin: 5px 50px;
+                }
             }
         }
-        .details>*{
-            margin: 5px 50px;
-        }
+        
     }
 }
 
@@ -75,6 +87,16 @@
         }
         .Mem{
             flex-direction: column;
+            .details{
+                .top{
+                    h1{
+                        font-size: 30px;
+                    }
+                }
+                .bottom{
+                    flex-direction: column;
+                }
+            }
         }
     }
 }
@@ -82,9 +104,14 @@
 @media screen and (max-width:700px){
     .About{
         h1{
-            font-size: 50px;
+            font-size: 40px;
         }
         .Mem{
+            img{
+                height: 250px;
+                width: 250px;
+                margin: 10px 30px;
+            }
             .Home{
                 #icon{
                     font-size: 60px;
@@ -99,6 +126,11 @@
 @media screen  and (max-width:500px){
     .About{
         .Mem{
+            img{
+                height: 230px;
+                width: 230px;
+                margin: 10px 20px;
+            }
             .details{
                 h1{
                     font-size: 30px;
