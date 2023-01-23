@@ -1,6 +1,6 @@
 import React from "react";
-import Lead from '../../Assets/Priyanka K.jpg'
-import Lead1 from '../../Assets/Kavin.jpg'
+import Memb from '../../Assets/Priyanka K.jpg'
+import Lead from '../../Assets/Kavin.jpg'
 import {AiOutlineHome} from 'react-icons/ai'
 
 
@@ -15,7 +15,7 @@ const About = () =>{
                 </h1>
             </div>
             <div className="Mem">
-                <img src={Lead1} alt="Kavin" />
+                <img src={Lead} alt="pic" />
                 <div className="details">
                     <div className="top">
                         <h1>Kavin Kumar M - (Team Lead)</h1>
@@ -32,7 +32,7 @@ const About = () =>{
                 </Link>
             </div>
             <div className="Mem" id="teamMem">
-                <img src={Lead} alt="Priyanka" /> 
+                <img src={Memb} alt="Pic" /> 
                 <div className="details">
                     <div className="top">
                         <h1>Priyanka P - (Team Member)</h1>
